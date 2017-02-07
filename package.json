@@ -1,0 +1,21 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js",
+    "phantom-test": "wdio wdio.PHANTOM.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "wdio-mocha-framework": "^0.5.8",
+    "wdio-phantomjs-service": "^0.2.2",
+    "wdio-selenium-standalone-service": "0.0.7",
+    "wdio-spec-reporter": "0.0.5",
+    "webdriverio": "^4.6.2"
+  }
+}
